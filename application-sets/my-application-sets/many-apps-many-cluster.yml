@@ -18,7 +18,6 @@ spec:
           # cluster generator, 'child' #2
           - clusters:
               selector: {}
-              project: default
   template:
     metadata:
       name: '{{path.basename}}-{{name}}'
